@@ -1,5 +1,7 @@
 *.zip
 History/*
+__Previews/*
+
 *.pyc
 *.map
 *.dblite
