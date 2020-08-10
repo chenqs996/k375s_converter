@@ -1,7 +1,8 @@
 *.zip
 History/*
 __Previews/*
-'Project Logs for K375s'/*
+Project\ Outputs\ for\ K375s/*
+Project\ Logs\ for\ K375s/*
 *.pyc
 *.map
 *.dblite
