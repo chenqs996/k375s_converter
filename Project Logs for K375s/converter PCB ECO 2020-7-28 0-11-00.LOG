@@ -1,0 +1,5 @@
+Added Component: Designator=P1(MHDR1X4)
+Added Pin To Net: NetName=3V3 Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=SWCLK Pin=P1-3
+Added Pin To Net: NetName=SWDIO Pin=P1-4
