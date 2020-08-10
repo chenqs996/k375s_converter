@@ -1,79 +1,94 @@
 Protel Design System Design Rule Check
 PCB File : D:\Desktop\k375s_converter\converter.PcbDoc
 Date     : 2020/8/10
-Time     : 16:06:29
+Time     : 21:35:25
 
-Processing Rule : Clearance Constraint (Gap=0mil) (IsText),(All)
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=10mil) (OnLayer('Bottom Overlay')),(All)
-Rule Violations :0
+Processing Rule : Silk primitive without silk layer
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (2218mil,663.465mil)(2218mil,690.433mil)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (2205.402mil,690.433mil)(2218mil,690.433mil)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (2205.402mil,663.465mil)(2205.402mil,690.433mil)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (2218mil,146.535mil)(2218mil,663.465mil)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (2205.402mil,119.567mil)(2205.402mil,146.535mil)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (2205.402mil,119.567mil)(2218mil,119.567mil)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (2218mil,119.567mil)(2218mil,146.535mil)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (-43.756mil,221.732mil)(251.244mil,221.732mil)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (-43.756mil,621.732mil)(251.244mil,621.732mil)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (-43.756mil,221.732mil)(-43.756mil,621.732mil)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (1475.921mil,-103.591mil)(1475.921mil,23.575mil)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (216.079mil,-103.591mil)(216.079mil,23.575mil)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (216.079mil,-103.591mil)(1475.921mil,-103.591mil)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "0805" (-81.5mil,937.5mil)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "D1" (232.5mil,937.5mil)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "USB" (1835.5mil,-8.5mil)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "15K" (1615.5mil,811.5mil)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "100nF" (375.099mil,856.256mil)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "0.01u" (608.5mil,859.5mil)  Bottom Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "C7" (1084.5mil,897.5mil)  Bottom Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "510R" (-120.5mil,835.5mil)  Bottom Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "R3" (-120.5mil,644.5mil)  Bottom Overlay
+Rule Violations :22
 
-Processing Rule : Clearance Constraint (Gap=0mil) (OnLayer('Bottom Overlay')),(All)
-Rule Violations :0
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+   Violation between Text "D" (1148mil,591mil)  Top Overlay and 
+                     Track (1118.567mil,622.567mil)(1339.433mil,622.567mil)  Top Overlay
+   Violation between Text "C" (1197mil,591mil)  Top Overlay and 
+                     Track (1118.567mil,622.567mil)(1339.433mil,622.567mil)  Top Overlay
+   Violation between Text "G" (1297mil,593mil)  Top Overlay and 
+                     Track (1118.567mil,622.567mil)(1339.433mil,622.567mil)  Top Overlay
+   Violation between Text "V" (1246mil,591mil)  Top Overlay and 
+                     Track (1118.567mil,622.567mil)(1339.433mil,622.567mil)  Top Overlay
+   Violation between Text "T" (1150mil,444mil)  Top Overlay and 
+                     Track (1121.567mil,474.567mil)(1342.433mil,474.567mil)  Top Overlay
+   Violation between Text "R" (1201mil,444mil)  Top Overlay and 
+                     Track (1121.567mil,474.567mil)(1342.433mil,474.567mil)  Top Overlay
+   Violation between Text "G" (1301mil,445mil)  Top Overlay and 
+                     Track (1121.567mil,474.567mil)(1342.433mil,474.567mil)  Top Overlay
+   Violation between Text "V" (1251mil,444mil)  Top Overlay and 
+                     Track (1121.567mil,474.567mil)(1342.433mil,474.567mil)  Top Overlay
+Rule Violations :8
 
-Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-Rule Violations :0
-
-Processing Rule : Un-Routed Net Constraint ( (All) )
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=8mil) (All),(All)
-Rule Violations :0
-
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=15mil) (Air Gap=10mil) (Entries=4) (All)
-Rule Violations :0
-
-Processing Rule : Width Constraint (Min=8mil) (Max=80mil) (Preferred=10mil) (All)
-Rule Violations :0
-
-Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
-Rule Violations :0
-
-Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
-Rule Violations :0
-
-Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Processing Rule : Silk To Solder Mask (Clearance=0mil) (IsPad),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0mil) (All),(All)
 Rule Violations :0
 
-Processing Rule : Silk To Solder Mask (Clearance=0mil) (IsPad),(All)
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
 Rule Violations :0
 
-Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
 Rule Violations :0
 
-Processing Rule : Silk primitive without silk layer
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (216.079mil,-103.591mil)(1475.921mil,-103.591mil)  Top Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (216.079mil,-103.591mil)(216.079mil,23.575mil)  Top Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (1475.921mil,-103.591mil)(1475.921mil,23.575mil)  Top Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (-43.756mil,221.732mil)(-43.756mil,621.732mil)  Top Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (-43.756mil,621.732mil)(251.244mil,621.732mil)  Top Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (-43.756mil,221.732mil)(251.244mil,221.732mil)  Top Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (2218mil,119.567mil)(2218mil,146.535mil)  Top Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (2205.402mil,119.567mil)(2218mil,119.567mil)  Top Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (2205.402mil,119.567mil)(2205.402mil,146.535mil)  Top Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (2218mil,146.535mil)(2218mil,663.465mil)  Top Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (2205.402mil,663.465mil)(2205.402mil,690.433mil)  Top Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (2205.402mil,690.433mil)(2218mil,690.433mil)  Top Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (2218mil,663.465mil)(2218mil,690.433mil)  Top Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "100nF" (375.099mil,856.256mil)  Top Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "15K" (1615.5mil,811.5mil)  Top Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "USB" (1835.5mil,-8.5mil)  Top Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "0805" (-81.5mil,937.5mil)  Top Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "D1" (232.5mil,937.5mil)  Top Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "510R" (-120.5mil,835.5mil)  Bottom Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "R3" (-120.5mil,644.5mil)  Bottom Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "C7" (1084.5mil,897.5mil)  Bottom Overlay
-   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "0.01u" (608.5mil,859.5mil)  Bottom Overlay
-Rule Violations :22
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
 
-Processing Rule : Net Antennae (Tolerance=0mil) (All)
-   Violation between Net Antennae: Via (1424mil,720mil) Top Layer to Bottom Layer
-Rule Violations :1
+Processing Rule : Width Constraint (Min=8mil) (Max=80mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=15mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=8mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mil) (OnLayer('Bottom Overlay')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (OnLayer('Bottom Overlay')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mil) (IsText),(All)
+Rule Violations :0
 
 
-Violations Detected : 23
-Time Elapsed        : 00:00:02
+Violations Detected : 30
+Time Elapsed        : 00:00:04

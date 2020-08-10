@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GND Pin=J1-GND
+Removed Pin From Net: NetName=GND Pin=J1-GND
+Removed Pin From Net: NetName=GND Pin=J2-
+Removed Pin From Net: NetName=GND Pin=J2-
+Removed Pin From Net: NetName=GND Pin=J2-
+Removed Pin From Net: NetName=GND Pin=J2-
+Removed Pin From Net: NetName=GND Pin=J3-5
+Removed Pin From Net: NetName=GND Pin=J3-6
+Added Component: Designator=C18(0603_C)
+Added Pin To Net: NetName=3V3 Pin=C18-2
+Added Pin To Net: NetName=NetC18_1 Pin=C18-1
+Added Pin To Net: NetName=NetC18_1 Pin=R1-1
+Added Pin To Net: NetName=NetC18_1 Pin=U1-7
+Added Net: Name=NetC18_1
+Added Member To Class: ClassName=Mainboard Member=Component C18 100nF
