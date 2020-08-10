@@ -1,6 +1,0 @@
-Added Component: Designator=P2(MHDR1X4)
-Added Pin To Net: NetName=3V3 Pin=P2-1
-Added Pin To Net: NetName=GND Pin=P2-2
-Added Pin To Net: NetName=UART1_RX Pin=P2-3
-Added Pin To Net: NetName=UART1_TX Pin=P2-4
-Added Member To Class: ClassName=Mainboard Member=Component P2 MHDR1X4

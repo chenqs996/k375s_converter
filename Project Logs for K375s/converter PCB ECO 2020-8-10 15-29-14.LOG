@@ -1,4 +1,0 @@
-Added Component: Designator=J4(HEADER-5.08)
-Added Pin To Net: NetName=GND Pin=J4-1
-Added Pin To Net: NetName=3V3 Pin=J4-2
-Added Member To Class: ClassName=Mainboard Member=Component J4 Header-5.08

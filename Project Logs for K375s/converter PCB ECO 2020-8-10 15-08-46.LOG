@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=LED_2 Pin=D3-2
-Removed Pin From Net: NetName=LED_3 Pin=D4-2
-Removed Pin From Net: NetName=3V3 Pin=R5-2
-Removed Pin From Net: NetName=3V3 Pin=R6-2
-Removed Member From Class: ClassName=Mainboard Member=D3
-Removed Member From Class: ClassName=Mainboard Member=D4
-Removed Member From Class: ClassName=Mainboard Member=R5
-Removed Member From Class: ClassName=Mainboard Member=R6
